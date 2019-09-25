@@ -1,0 +1,399 @@
+intents:
+- Default Welcome Intent
+- Default Fallback Intent
+- 01-ProgramAndPrerequisites
+- 02-Format
+- 03-Mentor
+- 04-Laptop
+- 05-LabExercises
+- 06-OnlineVideos
+- 07-MissAClass
+- 08-ContentAccess
+- 09-Opportunities
+- 10-CertificateAndFinalGrade
+- 11-BatchSize
+- 12-LabSessionsSupport
+- 13-HyderabadResident
+- 14-BestSuitedFor
+- 15-Modules
+- 16-LearningSessions
+- 17-FeeStructure
+- 18-WeeklyCommitment
+- 19-StartDate
+- 20-Location
+- 21-Residencies
+- 22-RealWorldScenariosAndHackathons
+- 23-CareerOpportunities
+- 24-UseCases
+- 25-AIandML
+- 26-Hackathon
+- 27-LabEnvironment
+- 28-ClassroomEnvironment
+- 29-LMS
+- 30-TeachingLanguage
+- 31-Hostel
+- 32-SyllabusAndBenefits
+- 33-RegistrationProcess
+- 34-FinalAssessment
+- 35-LunchFacility
+- 36-AgeLimit
+- 37-FirstAidAndWheelchairAccess
+- 38-MonitoringProjects
+- 39-MentorAccess
+- 40-Questions
+- 41-ClassesAndVacations
+- 42-HolidaysAndBreaks
+- 43-WorkAndClasses
+- 44-ClassesAndLabs
+- 45-PracticeSessionsNumber
+- 46-CellPhones
+- 47-Internship
+- 48-PastRating
+- 49-BuildingFloor
+- 50-DiscontinueCourse
+- 51-FunCourse
+- 52-Transport
+- 53-DislikeCourse
+- 54-TakeABreak
+- 55-ProgramForMe
+- 56-LiveClassesOrVideos
+- 57-SelectionCriteria
+- 58-CourseForFreshers
+- 59-ScholarshipTest
+- 60-SelectionCriteria
+- 61-Interviews
+- 62-NoInterview
+- 63-Payment
+- 64-EMI
+- 65-EMIInterest
+- 66-RefundAndDefferal
+- 67-Examatendcourse
+entities:
+- people
+- geo-city
+- date-period
+- ordinal
+- date-period1
+- people2
+- age
+- things
+- things1
+- language
+- people1
+templates:
+  utter_01:
+  - text: The topics covered in this program include Predictive Analytics, Machine
+      Learning, Neural Networks and Case Studies
+  utter_02:
+  - text: This is a 20 Weekends Program. Of which 2 of the weekends will be used for
+      covering preparatory material needed for doing actual course work. 16 weekends
+      will be utilized for covering areas of Predictive Analytics, Machine Learning
+      and Neural Networks. Last 2 weekends will be utilized for covering four challenging
+      Business Cases that are run in a Hackathon model. The course will be conducted
+      on weekends(Saturday and Sunday from 9am to 5 pm) and the location is Hyderabad.
+  utter_03:
+  - text: The mentors have years of experience in teaching this subject matter and
+      are alumni of top-tier institutions like IITs or IISc with advanced degrees.
+      They have exposure to both Industry and Academia. Most of the mentors have association
+      with NIT Warangal either as full time or adjunct capacities. They are 1. Prof.
+      R B V Subhramanyam, Head, Dept. Of CSE, NIT Warangal, 2. Dr. P Radhakrishna,
+      Professor, Dept. Of CSE, NIT Warangal, 3. Dr. V Ravindranath, Professor, Dept.
+      Of CSE, JNTU Kakinada, 4. Dr. S Nagesh Bhattu, Asst. Professor, Dept. Of CSE,
+      NIT Tadepalligudem, 5. Dr. DVLN Somayajulu, Director IIIT DM, Kurnool, 6. Bhat
+      Dittakavi, CEO, Variance, AI, 7. Surya Putchala, CEO, Zettamine Labs, 8. Vasu
+      Thumati, CEO, Startup Moksha
+  utter_04:
+  - text: All the Exercises are either run on the laptops or we have state of the
+      art computational facility which are GPU enabled to run large datasets.The Lab
+      facilities are available 24x7 in our facility.
+  utter_05:
+  - text: You can do the lab exercises at home, but you will not be able to take advantage
+      of the live guidance from expert mentors while at home. Also, you will not be
+      able to leverage the computational infrastructure that is needed to run large
+      datasets at home.
+  utter_06:
+  - text: Unedited classroom sessions will be made available on the LMS. The Presentations,
+      cheat sheets, lab exercises, assignments etc.,will be available 24×7.
+  utter_07:
+  - text: It is recommended that you do not miss a class. In case it is unavoidable,
+      you will have access to an unedited version of the video recording of the classes
+      in the LMS.
+  utter_08:
+  - text: You will have 1 year access for the content.
+  utter_09:
+  - text: We have some of the biggest manpower and consulting agencies empanel with
+      us. These career transformation partners would refer or help find opportunities
+      suitable for your profile.
+  utter_10:
+  - text: Every participant completing the Program will get a certificate from E&ICT
+      Academy of NIT Warangal.
+  utter_11:
+  - text: Maximum class size in each batch will be 40 people. We maintain a high mentor
+      to participant ration to enhance learning.
+  utter_12:
+  - text: The lab sessions will be mentored by experienced AI,ML practitioners and
+      researchers who are listed in the brochure.It is recommended that the participants
+      make the best use of their exposure,problem solving skill and experience.
+  utter_13:
+  - text: You have to be physically present at Hyderabad since these are contact classes.
+      The Labs are also conducted in the same venue.
+  utter_14:
+  - text: Pre-Requisites 1. Bachelor’s/Master’s degrees in Computer Science or Engineering
+      or Management 2. Comfortable with Mathematics and Statistics 3. Computer Programming
+      Exposure 4.Working experience of at least an year
+  utter_15:
+  - text: There are 4 modules included in this program. They are 1. Predictive Analytics(4
+      weekends) 2. Machine Learning(6 weekends) 3. Artificial Intelligence(6 weekends)
+      4. Case Studies(2 weekends)
+  utter_16:
+  - text: The Learning Sessions are comprised of 60+ Contact Lectures. 60+ Lab, Exercises
+      and Tutorials. Healthy student, teacher ratio
+  utter_17:
+  - text: 1. The application fee is INR 5,000 +(incl GST* ) It is non refundable 2.
+      The tution fee is INR 85,000 (Plus GST)
+  utter_18:
+  - text: The course will be completed in 16 Weekends (Saturday, Sundays 9am - 5pm)
+      The weekly commitment required is 16 hours of classroom learning Weekends.16
+      - 8 hours for Pre-study Assignments / Excercises Projects
+  utter_19:
+  - text: The program starts on 3rd AUGUST 2019
+  utter_20:
+  - text: The program is located at  Hyderabad. Address  63/A, Rd Number 13, Giani
+      Zail Singh Nagar, Film Nagar, Hyderabad, Telangana 500096
+  utter_21:
+  - text: E&ICT Academy of NIT Warangal’s offsite campus at Hyderabad provides state
+      of the art learning facilities for learning and practicing. However, in order
+      to give belongingness to this Top tier institution, the program Inauguration
+      and Valedictory functions will be conducted in NIT Warangal’s campus. The Academy
+      will host 2 residencies during the program to give firsthand experience for
+      the participants the campus life of NIT Warangal. This Academy has a wonderful
+      lecture theatre and state of the art lab facilities. It also gives the participants
+      to explore the Kakatiya glory of Warangal.
+  utter_22:
+  - text: Experiential Learning is critical to apply various AI/ML techniques. This
+      happens with the simulation of various scenarios in the real world. We conceived
+      4 real business use cases with obfuscated data to solve problems analytically
+      based on the learnings in the classroom. Each case could be solved in multiple
+      ways….solving these problems in a hackathon model gives participants a competitive
+      way to apply various techniques learned. The hackathon will be ably assisted
+      by our very qualified mentors. At the end of the Hackathons, various methods
+      and approaches will be discussed.The datasets are large and thus needs high-end
+      infrastructure including GPUs which the E&ICT Academy of NIT Warangal provides!!
+  utter_23:
+  - text: To ensure the success of its participants, several support services such
+      as resume reviews, portfolio creation on Github, Interview preparation guides
+      are made available. Besides this, our partners will enable job referrals with
+      potential employers. You will be offered placement and resume building assistance.
+      With industry partners on-board, we will ensure you have all the support you
+      need to secure a job.
+  utter_24:
+  - text: Experiential Learning is critical to apply various AI/ML techniques. This
+      happens with the simulation of various scenarios in the real world. We conceived
+      4 real business use cases with obfuscated data to solve problems analytically
+      based on the learnings in the classroom.
+  utter_25:
+  - text: Artificial Intelligence is the broader concept of machines being able to
+      carry out tasks in a way that we would consider“smart”.And, Machine Learning
+      is a current application of AI based around the idea that we should really just
+      be able to give machines access to data and let them learn for themselves.
+  utter_26:
+  - text: A hackathon is a design sprint-like event in which computer programmers
+      and others involved in software development, including graphic designers, interface
+      designers, project managers, and others, often including domain experts, collaborate
+      intensively on software projects.
+  utter_27:
+  - text: We have state of the art computational facility which are GPU enabled to
+      run large datasets. The Lab facilities are available 24x7 in our facility. The
+      lab sessions are conducted here.
+  utter_28:
+  - text: We provide state of the art classrooms with all modern facilities.The classrooms
+      are equipped with Air Conditioners, Projectors and Whiteboards.
+  utter_29:
+  - text: We provide a Learning Management System(LMS).Credentials will be provided
+      to all the registered students.All the material would be provided via LMS.
+  utter_30:
+  - text: The mode of instruction is English and all the instructions and materials
+      will be provided in English.
+  utter_31:
+  - text: We do not provide hostel facility.
+  utter_32:
+  - text: The syllabus of the course is divided into 12 units.Every student can have
+      a grip on these aspects after the course is complete UNIT1 Statistical Foundations,UNIT2
+      Inferential Statistics,UNIT3 Generalized Linear Models,UNIT4 Machine Learning
+      Foundations,UNIT5 Unsupervised Learning- Clustering,UNIT6 Supervised Learning
+      -Classification,UNIT7 Decision Trees & Ensembles,UNIT8 Association Rule Mining,UNIT9
+      Artificial Neural Networks,UNIT10 Deep Learning,UNIT11 Natural Language Processing,UNIT12
+      Reinforcement Learning
+  utter_33:
+  - text: Step1 Register by paying application fee. Step2 An expert committee from
+      NITW will review the application and refund the fee if not selected. Step3 Attend
+      the preparatory classes till the batch starts
+  utter_34:
+  - text: A final assessment test will be conducted at the end of the course to evaluate
+      the performance of the students.
+  utter_35:
+  - text: Lunch facility will be provided to those who opt for it.
+  utter_36:
+  - text: There is no age limit to join the program.We are looking for experienced
+      students who are graduates.
+  utter_37:
+  - text: We have an access to wheelchair and medical aid in case of emergency.
+  utter_38:
+  - text: All projects and assignments are monitored by the mentors in the labs
+  utter_39:
+  - text: We create a group chat accounts either in WhatsApp or Slack for the cohort.
+      They can interact  through emails as well.You will have access to NIT Warangal
+      professors, instructors and our 24x7 support team to assist you with your queries.
+  utter_40:
+  - text: There is a Q&A during the class. If they are after the class, the participants
+      can use the discussion forum in the LMS or connect through Community platform
+      like WhatsApp or Slack. Alternatively participants can email the mentors.You
+      will have access to NIT Warangal professors, instructors and our 24x7 support
+      team to assist you with your queries.
+  utter_41:
+  - text: The class schedules are published when the cohort starts. Depending on the
+      topics covered, the participants may decide to attend or skip.
+  utter_42:
+  - text: The class schedules will be published. They will include public holidays.
+      Additional time is allocated as reserve days.
+  utter_43:
+  - text: This program is specifically designed for working professionals. They need
+      to commit weekends to explore to new career options.
+  utter_44:
+  - text: We planned the course to have equal amount to Classroom sessions and Labs
+      and Exercises
+  utter_45:
+  - text: We planned 60+ Practice/exercise sessions.
+  utter_46:
+  - text: We recommend the mobile phones are muted during the class.
+  utter_47:
+  - text: Internship is not the part of this program. However, our partners may be
+      interested in offering you Internships, if you perform well in this program.
+  utter_48:
+  - text: Please refer to the testimonial section on our website.
+  utter_49:
+  - text: The program is conducted in the first floor.
+  utter_50:
+  - text: Most people complete the course. You may discontinue the course.However,
+      the course fee will not be refunded.
+  utter_51:
+  - text: This course is immersive, real-world based program with use cases. It is
+      fun for those participants who enjoy challenges .
+  utter_52:
+  - text: We will not arrange transport.
+  utter_53:
+  - text: We are sorry. This course is challenging.
+  utter_54:
+  - text: Take a break!
+  utter_55:
+  - text: There are 4 modules included in this program. They are  Predictive Analytics(4
+      weekends). Machine Learning(6 weekends) Artificial Intelligence(6 weekends)
+      Case Studies(2 weekends)
+  utter_56:
+  - text: All the classes will be conducted live. However, recorded videos of the
+      live sessions can be accessed on the LMS.
+  utter_57:
+  - text: Pre-Requisites 1. Bachelor’s/Master’s degrees in Computer Science or Engineering
+      or Management 2. Comfortable with Mathematics and Statistics 3. Computer Programming
+      Exposure 4.Working experience of at least an year
+  utter_58:
+  - text: This course has been specially designed for individuals with prior work
+      experience.
+  utter_59:
+  - text: No scholarship is provided.
+  utter_60:
+  - text: Pre-Requisites 1. Bachelor’s/Master’s degrees in Computer Science or Engineering
+      or Management 2. Comfortable with Mathematics and Statistics 3. Computer Programming
+      Exposure 4.Working experience of at least an year
+  utter_61:
+  - text: No interviews will be conducted.
+  utter_62:
+  - text: Yes you can take course without interview,if you meet the required criteria.
+  utter_63:
+  - text: We have a payment gateway which offers you various modes of payment.Go to
+      registration page.
+  utter_64:
+  - text: You have an EMI facility. Please call to +91-9121192119
+  utter_65:
+  - text: Please call to +91-9121192119 for more details.
+  utter_66:
+  - text: You can attend classes of next batch.  Refund will not be given.
+  utter_67:
+  - text: Every participant completing the Program will get a certificate from E&ICT
+      Academy of NIT Warangal.
+  utter_DefaultWelcomeIntent:
+  - text: Hello. We offer a Certification Program in Applied Artificial Intelligence
+      (CAAI). What would you like to know ?
+  utter_DefaultFallbackIntent:
+  - text: For any other information please contact us on  +91-9121192119 or mail us
+      at  info@nitwai.com or visit our website  www.nitwai.com
+actions:
+- utter_01
+- utter_02
+- utter_03
+- utter_04
+- utter_05
+- utter_06
+- utter_07
+- utter_08
+- utter_09
+- utter_10
+- utter_11
+- utter_12
+- utter_13
+- utter_14
+- utter_15
+- utter_16
+- utter_17
+- utter_18
+- utter_19
+- utter_20
+- utter_21
+- utter_22
+- utter_23
+- utter_24
+- utter_25
+- utter_26
+- utter_27
+- utter_28
+- utter_29
+- utter_30
+- utter_31
+- utter_32
+- utter_33
+- utter_34
+- utter_35
+- utter_36
+- utter_37
+- utter_38
+- utter_39
+- utter_40
+- utter_41
+- utter_42
+- utter_43
+- utter_44
+- utter_45
+- utter_46
+- utter_47
+- utter_48
+- utter_49
+- utter_50
+- utter_51
+- utter_52
+- utter_53
+- utter_54
+- utter_55
+- utter_56
+- utter_57
+- utter_58
+- utter_59
+- utter_60
+- utter_61
+- utter_62
+- utter_63
+- utter_64
+- utter_65
+- utter_66
+- utter_67
+- utter_DefaultWelcomeIntent
+- utter_DefaultFallbackIntent
